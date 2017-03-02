@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--optimizes view for the device-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--links for the bootstrap stylesheet and the user created one-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- appears in tab-->
+    <title>YO HOUSE HERE</title>
+  </head>
+
+  <!--BEGIN PUTTING ELEMENTS OF WEBSITE IN-->
+  <body>
+
+  <!--
+  page header
+  <div class="page-header">
+    <h1>A DOPE HEADER</h1>
+  </div>
+  -->
+
+  <!--NAVBAR-->
+  <!--class named bgimage that is reference in styles.css-->
+  <div class="bgimage">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">LOGO</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CREATE</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">FINANCE</a></li>
+          <li><a href="#">LOGIN/REGISTER</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <!--Jumbotron element-->
+  <div class="container">
+    <div class="jumbotron">
+      <!--h1 to h6-->
+      <h1>HEADER SIZE 1 <small>with lighter extra text</small></h1>
+      <p>PARAGRAPH TEXT <mark>highlight</mark></p>
+    </div>
+  </div>
+
+  <!--PROGRESS BAR-->
+  <div class="container">
+    <div class="progress">
+    <div class="progress-bar" role="progressbar" aria-valuenow="50"
+    aria-valuemin="0" aria-valuemax="100" style="width:50%">50%
+    </div>
+    </div>
+  </div>
+
+  <!--ALERT-->
+  <div class="container">  
+    <div class="alert alert-danger alert-dismissable">
+      <!--close out of the alert-->
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+      <strong>LOOK!</strong> DESE HOUSES GOING FAST 
+      <!--add link-->
+      <a href="#" class="alert-link">CLICK HERE TO BUY</a>
+    </div>
+  </div>
+
+  <!--general fixed with container-->
+  <div class="container">
+    <div class="well well-sm">
+     <h1> BUY DIS HOUSE</h1>
+      <p>we in a well doe</p>
+      <blockquote>
+        <p> dis house hot BLOCKQUOTE</p>
+      </blockquote>
+    </div>
+  </div>
+
+  <!--PAGER-->
+  <div class="container">
+    <ul class="pager">
+      <li><a href="#">PREVIOUS</a></li>
+      <li><a href="#">NEXT</a></li>
+    </ul>
+  </div>
+
+  <!--TABLE-->
+  <div class="container">
+    <h1>A RESPONSIVE TABLE</h1>
+    <!--responsive table that allows horizontal scrolling on small devices-->
+    <div class="table-responsive">
+      <!--general table, can look up other options for formatting-->
+      <table class="table">
+        <!--headers for top row of table-->
+        <thead>
+          <!--table row-->
+          <tr>
+            <th>Architect</th>
+            <th>House</th>
+            <th>Price</th>
+            <th>Swag Level</th>
+          </tr>
+        </thead>
+        <!--data for table-->
+        <tbody>
+          <tr>
+            <td>Joe</td>
+            <td>Hot Shit</td>
+            <td>200,000</td>
+            <td>10/10</td>
+          </tr>
+          <tr>
+            <td>Jack</td>
+            <td>Hot Shizzle</td>
+            <td>300,000</td>
+            <td>9/10</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!--BUTTONS-->
+  <div class="container">  
+    <div class="btn-group-lg">
+      <h2>BUTTONS</h2>
+      <button type="button" class="btn btn-primary">BUTTON</button>
+      <a href="#" class="btn btn-info" role="button">LINK</a>
+    </div>
+  </div>
+
+  <!--
+  Contains Dropdown
+  <div class="container">
+    <ul class="list-inline">
+      DROPDOWN
+      <li>
+        <div class="dropdown">
+      <button class="btn btn-primary dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">HOUSE OPTIONS
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+        <li role="presentation"><a role="menuitem" href="#">House 1</a></li>
+        <li role="presentation"><a role="menuitem" href="#">House 2</a></li>
+      </ul>
+        </div>
+      </li>
+      SEARCH BUTTON
+      <li>
+        <button type="button" class="btn btn-primary">
+          <span class="glyphicon glyphicon-search"></span> SEARCH
+        </button>
+      </li>
+    </ul>
+    </div>
+  -->
+
+  <!--row and columns-->
+  <!--numbers in col should add up to 12 for each row-->
+  <!--col options: xs,sm,md,lg-->
+  <div class="row">
+    <div class="col-md-12"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"></div>        
+    <div class="col-sm-4"></div>
+    <div class="col-sm-4"></div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4"></div>        
+    <div class="col-md-8"></div>
+  </div>
+
+  </body>
+</html>
